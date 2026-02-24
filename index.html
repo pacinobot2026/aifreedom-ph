@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Freedom PH – Free 3-Day AI VA Workshop</title>
+    <title>AI Freedom PH – The Market Is Splitting. Which Side Are You On?</title>
     <style>
         * {
             margin: 0;
@@ -14,7 +14,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #1a1a1a;
             background: #fff;
         }
         
@@ -24,12 +24,11 @@
             padding: 0 20px;
         }
         
-        /* Hero Section */
+        /* Hero Section - Destabilize → Clarify → Transfer Power */
         .hero {
-            background: linear-gradient(135deg, #0038A8 0%, #CE1126 100%);
+            background: linear-gradient(135deg, #0038A8 0%, #001f5c 100%);
             color: white;
-            padding: 80px 20px 100px;
-            text-align: center;
+            padding: 100px 20px 120px;
             position: relative;
             overflow: hidden;
         }
@@ -41,165 +40,362 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('[LOGO_URL]') center no-repeat;
-            opacity: 0.05;
-            background-size: cover;
+            background: radial-gradient(circle at 20% 50%, rgba(206, 17, 38, 0.15) 0%, transparent 50%);
         }
         
         .hero-content {
             position: relative;
             z-index: 1;
-        }
-        
-        .hero h1 {
-            font-size: 3.5rem;
-            font-weight: 900;
-            margin-bottom: 20px;
-            line-height: 1.2;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-        
-        .hero h2 {
-            font-size: 1.5rem;
-            font-weight: 400;
-            margin-bottom: 40px;
-            opacity: 0.95;
-        }
-        
-        .benefits {
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 30px;
-            margin: 40px auto;
-            max-width: 600px;
-            text-align: left;
-        }
-        
-        .benefits ul {
-            list-style: none;
-        }
-        
-        .benefits li {
-            padding: 12px 0;
-            font-size: 1.1rem;
-            position: relative;
-            padding-left: 35px;
-        }
-        
-        .benefits li::before {
-            content: '✓';
-            position: absolute;
-            left: 0;
-            font-weight: bold;
-            font-size: 1.5rem;
-            color: #FCD116;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: #FCD116;
-            color: #0038A8;
-            padding: 20px 50px;
-            font-size: 1.3rem;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 50px;
-            margin: 20px 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
-            border: none;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-        }
-        
-        .microcopy {
-            font-size: 0.9rem;
-            opacity: 0.8;
-            margin-top: 15px;
-        }
-        
-        /* Trust Section */
-        .trust-section {
-            background: #f8f9fa;
-            padding: 60px 20px;
+            max-width: 900px;
+            margin: 0 auto;
             text-align: center;
         }
         
-        .trust-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+        .overline {
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FCD116;
+            margin-bottom: 20px;
         }
         
-        .trust-item {
-            background: white;
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            margin-bottom: 30px;
+            line-height: 1.1;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+        
+        .hero h1 span {
+            color: #FCD116;
+        }
+        
+        .hero-sub {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 40px;
+            line-height: 1.4;
+            opacity: 0.95;
+        }
+        
+        .reality-check {
+            background: rgba(206, 17, 38, 0.9);
             padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-radius: 15px;
+            margin: 40px auto;
+            max-width: 700px;
+            border-left: 5px solid #FCD116;
         }
         
-        .trust-item h3 {
+        .reality-check p {
+            font-size: 1.15rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .reality-check p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .benefits-urgent {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 40px;
+            margin: 50px auto;
+            max-width: 800px;
+        }
+        
+        .benefits-urgent h3 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+            color: #FCD116;
+            text-align: center;
+        }
+        
+        .benefits-urgent ul {
+            list-style: none;
+        }
+        
+        .benefits-urgent li {
+            padding: 15px 0;
+            font-size: 1.2rem;
+            position: relative;
+            padding-left: 40px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .benefits-urgent li:last-child {
+            border-bottom: none;
+        }
+        
+        .benefits-urgent li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.8rem;
+            color: #FCD116;
+        }
+        
+        .cta-primary {
+            display: inline-block;
+            background: #FCD116;
+            color: #0038A8;
+            padding: 25px 60px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 30px 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(252, 209, 22, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .cta-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 35px rgba(252, 209, 22, 0.6);
+        }
+        
+        .urgency-line {
+            font-size: 0.95rem;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        /* Pattern Break */
+        .pattern-break {
+            background: #000;
+            color: #FCD116;
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            font-style: italic;
+            border-top: 3px solid #FCD116;
+            border-bottom: 3px solid #FCD116;
+        }
+        
+        /* Reality Section */
+        .reality-section {
+            padding: 100px 20px;
+            background: #f8f9fa;
+        }
+        
+        .reality-section h2 {
+            text-align: center;
+            font-size: 3rem;
+            color: #0038A8;
+            margin-bottom: 30px;
+            font-weight: 900;
+        }
+        
+        .reality-section .intro {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: #333;
+        }
+        
+        .reality-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .reality-card {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            border-top: 5px solid #CE1126;
+        }
+        
+        .reality-card h3 {
+            font-size: 1.6rem;
+            color: #CE1126;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .reality-card p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #555;
+        }
+        
+        /* Inevitability Section */
+        .inevitability {
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #001f5c 0%, #000 100%);
+            color: white;
+        }
+        
+        .inevitability h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 40px;
+            font-weight: 900;
+        }
+        
+        .inevitability .intro {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            font-size: 1.3rem;
+            line-height: 1.8;
+            text-align: center;
+        }
+        
+        .split-visual {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            max-width: 1000px;
+            margin: 60px auto;
+        }
+        
+        .split-side {
+            padding: 50px;
+            border-radius: 15px;
+        }
+        
+        .split-left {
+            background: rgba(206, 17, 38, 0.2);
+            border: 3px solid #CE1126;
+        }
+        
+        .split-right {
+            background: rgba(252, 209, 22, 0.1);
+            border: 3px solid #FCD116;
+        }
+        
+        .split-side h3 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            font-weight: 900;
+        }
+        
+        .split-side ul {
+            list-style: none;
+        }
+        
+        .split-side li {
+            padding: 12px 0;
+            font-size: 1.15rem;
+            line-height: 1.6;
+        }
+        
+        /* Identity Transformation */
+        .identity-section {
+            padding: 100px 20px;
+            background: white;
+        }
+        
+        .identity-section h2 {
+            text-align: center;
+            font-size: 3rem;
+            color: #0038A8;
+            margin-bottom: 40px;
+            font-weight: 900;
+        }
+        
+        .identity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+        
+        .identity-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 35px;
+            border-radius: 12px;
+            border-left: 5px solid #FCD116;
+        }
+        
+        .identity-card h4 {
+            font-size: 1.4rem;
             color: #0038A8;
             margin-bottom: 15px;
-            font-size: 1.3rem;
+            font-weight: 700;
         }
         
-        /* Program Section */
+        .identity-card p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        /* Program Section - Day Breakdown */
         .program-section {
-            padding: 80px 20px;
+            padding: 100px 20px;
+            background: #f8f9fa;
         }
         
         .program-section h2 {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 3rem;
             color: #0038A8;
-            margin-bottom: 50px;
+            margin-bottom: 60px;
+            font-weight: 900;
         }
         
         .day-breakdown {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+            max-width: 900px;
+            margin: 0 auto;
         }
         
         .day-card {
             background: white;
             border: 3px solid #0038A8;
             border-radius: 15px;
-            padding: 40px;
+            padding: 50px;
+            margin-bottom: 40px;
             transition: transform 0.3s;
         }
         
         .day-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transform: translateX(10px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .day-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
         }
         
         .day-number {
             background: #0038A8;
             color: white;
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-bottom: 20px;
+            font-size: 2rem;
+            font-weight: 900;
+            margin-right: 25px;
         }
         
         .day-card h3 {
             color: #CE1126;
-            margin-bottom: 15px;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
+            font-weight: 700;
         }
         
         .day-card ul {
@@ -208,203 +404,143 @@
         }
         
         .day-card li {
-            padding: 8px 0;
-            padding-left: 25px;
+            padding: 12px 0;
+            padding-left: 35px;
             position: relative;
+            font-size: 1.15rem;
+            line-height: 1.7;
         }
         
         .day-card li::before {
-            content: '→';
-            position: absolute;
-            left: 0;
-            color: #FCD116;
-            font-weight: bold;
-        }
-        
-        /* Who This Is For Section */
-        .audience-section {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 80px 20px;
-        }
-        
-        .audience-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin-top: 40px;
-        }
-        
-        .audience-card {
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-        
-        .audience-card h3 {
-            font-size: 1.8rem;
-            margin-bottom: 25px;
-        }
-        
-        .for-you {
-            border-top: 5px solid #28a745;
-        }
-        
-        .for-you h3 {
-            color: #28a745;
-        }
-        
-        .not-for-you {
-            border-top: 5px solid #CE1126;
-        }
-        
-        .not-for-you h3 {
-            color: #CE1126;
-        }
-        
-        .audience-card ul {
-            list-style: none;
-        }
-        
-        .audience-card li {
-            padding: 12px 0;
-            padding-left: 30px;
-            position: relative;
-        }
-        
-        .for-you li::before {
             content: '✓';
             position: absolute;
             left: 0;
-            color: #28a745;
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-        
-        .not-for-you li::before {
-            content: '✗';
-            position: absolute;
-            left: 0;
-            color: #CE1126;
-            font-weight: bold;
-            font-size: 1.3rem;
-        }
-        
-        /* How It Works */
-        .process-section {
-            padding: 80px 20px;
-        }
-        
-        .process-steps {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 40px;
-        }
-        
-        .step {
-            flex: 1;
-            min-width: 200px;
-            max-width: 250px;
-            text-align: center;
-            position: relative;
-        }
-        
-        .step-number {
-            background: #0038A8;
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 20px;
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
-        
-        .step::after {
-            content: '→';
-            position: absolute;
-            top: 25px;
-            right: -20px;
             color: #FCD116;
-            font-size: 2rem;
-            font-weight: bold;
+            font-weight: 900;
+            font-size: 1.4rem;
         }
         
-        .step:last-child::after {
-            display: none;
-        }
-        
-        /* FAQ Section */
-        .faq-section {
-            background: #f8f9fa;
-            padding: 80px 20px;
-        }
-        
-        .faq-container {
-            max-width: 800px;
-            margin: 40px auto 0;
-        }
-        
-        .faq-item {
+        /* Objections Section */
+        .objections-section {
+            padding: 100px 20px;
             background: white;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
         
-        .faq-question {
-            padding: 25px;
-            font-weight: bold;
+        .objections-section h2 {
+            text-align: center;
+            font-size: 3rem;
             color: #0038A8;
-            font-size: 1.2rem;
-            cursor: pointer;
-            position: relative;
+            margin-bottom: 60px;
+            font-weight: 900;
         }
         
-        .faq-question::after {
-            content: '+';
-            position: absolute;
-            right: 25px;
-            font-size: 1.5rem;
+        .objection-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         
-        .faq-answer {
-            padding: 0 25px 25px;
+        .objection-item {
+            background: #f8f9fa;
+            padding: 35px;
+            border-radius: 12px;
+            border-left: 5px solid #CE1126;
+        }
+        
+        .objection-item h4 {
+            font-size: 1.3rem;
+            color: #CE1126;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .objection-item p {
+            font-size: 1.05rem;
+            line-height: 1.7;
             color: #555;
+        }
+        
+        /* Future Visualization */
+        .future-section {
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #0038A8 0%, #001f5c 100%);
+            color: white;
+        }
+        
+        .future-section h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 60px;
+            font-weight: 900;
+        }
+        
+        .vision-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 50px;
+            border-radius: 15px;
+            max-width: 800px;
+            margin: 40px auto;
+            border: 2px solid rgba(252, 209, 22, 0.3);
+        }
+        
+        .vision-card h3 {
+            font-size: 1.8rem;
+            color: #FCD116;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .vision-card p {
+            font-size: 1.2rem;
             line-height: 1.8;
+            font-style: italic;
         }
         
         /* Registration Form */
         .registration-section {
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #0038A8 0%, #CE1126 100%);
+            padding: 100px 20px;
+            background: #000;
             color: white;
+        }
+        
+        .registration-section h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 30px;
+            font-weight: 900;
+        }
+        
+        .form-intro {
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 50px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .form-container {
             max-width: 600px;
-            margin: 40px auto 0;
+            margin: 0 auto;
             background: white;
-            padding: 50px;
+            padding: 60px;
             border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(252, 209, 22, 0.3);
         }
         
         .form-group {
-            margin-bottom: 25px;
+            margin-bottom: 30px;
         }
         
         label {
             display: block;
-            margin-bottom: 8px;
-            color: #333;
-            font-weight: 600;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+            font-weight: 700;
+            font-size: 1.05rem;
         }
         
         input[type="text"],
@@ -412,10 +548,10 @@
         input[type="tel"],
         select {
             width: 100%;
-            padding: 15px;
+            padding: 18px;
             border: 2px solid #ddd;
-            border-radius: 8px;
-            font-size: 1rem;
+            border-radius: 10px;
+            font-size: 1.05rem;
             transition: border-color 0.3s;
         }
         
@@ -423,12 +559,13 @@
         select:focus {
             outline: none;
             border-color: #0038A8;
+            box-shadow: 0 0 0 3px rgba(0, 56, 168, 0.1);
         }
         
         .checkbox-group {
             display: flex;
             align-items: flex-start;
-            gap: 10px;
+            gap: 12px;
         }
         
         .checkbox-group input[type="checkbox"] {
@@ -438,297 +575,362 @@
         .checkbox-group label {
             margin-bottom: 0;
             font-weight: normal;
+            font-size: 0.95rem;
         }
         
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
         }
         
         .skill-checkbox {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
         }
         
         .submit-button {
             background: #0038A8;
             color: white;
             width: 100%;
-            padding: 20px;
+            padding: 25px;
             border: none;
             border-radius: 50px;
-            font-size: 1.3rem;
-            font-weight: bold;
+            font-size: 1.4rem;
+            font-weight: 900;
             cursor: pointer;
-            transition: background 0.3s;
-            margin-top: 20px;
+            transition: background 0.3s, transform 0.3s;
+            margin-top: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
         
         .submit-button:hover {
-            background: #002d87;
+            background: #001f5c;
+            transform: translateY(-3px);
         }
         
         /* Footer */
         footer {
             background: #1a1a1a;
             color: white;
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
         
         .disclaimer {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            font-size: 0.9rem;
-            opacity: 0.8;
+            font-size: 0.95rem;
             line-height: 1.8;
+            opacity: 0.8;
         }
         
         /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
             
-            .hero h2 {
+            .hero-sub {
                 font-size: 1.2rem;
             }
             
-            .cta-button {
-                padding: 15px 30px;
-                font-size: 1.1rem;
+            .split-visual {
+                grid-template-columns: 1fr;
+                gap: 30px;
             }
             
-            .process-steps {
-                flex-direction: column;
-            }
-            
-            .step::after {
-                display: none;
+            .objection-grid,
+            .identity-grid {
+                grid-template-columns: 1fr;
             }
             
             .form-container {
-                padding: 30px 20px;
+                padding: 40px 25px;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
+    <!-- HERO - Destabilize → Clarify → Transfer Power -->
     <section class="hero">
-        <div class="hero-content container">
-            <h1>The Philippines' AI Revolution Starts Here</h1>
-            <h2>Master AI + VA Skills. Build Your Future. Join the Movement.</h2>
+        <div class="hero-content">
+            <div class="overline">AI Freedom PH • Free 3-Day Workshop</div>
+            <h1>The Market Is Splitting.<br>Which Side Are <span>You</span> On?</h1>
+            <p class="hero-sub">Filipino VAs who master AI are commanding 3x rates. Those who don't are being replaced. This isn't motivational. It's structural.</p>
             
-            <div class="benefits">
+            <div class="reality-check">
+                <p><strong>Reality Check #1:</strong> US clients are already hiring AI-ready VAs over traditional ones.</p>
+                <p><strong>Reality Check #2:</strong> The wage gap between AI-skilled and non-AI-skilled VAs is widening every month.</p>
+                <p><strong>Reality Check #3:</strong> Waiting to learn AI isn't neutral. It's falling behind.</p>
+            </div>
+            
+            <div class="benefits-urgent">
+                <h3>In 3 Days, You'll Understand:</h3>
                 <ul>
-                    <li>Learn AI tools that triple your value as a VA</li>
-                    <li>Get real workflows used by top Filipino VAs</li>
-                    <li>Understand what US clients actually want</li>
-                    <li>Build skills that increase your rates</li>
-                    <li>Join a community of AI-ready Filipinos</li>
+                    <li>Which AI tools triple your efficiency (not theory—actual workflows)</li>
+                    <li>Why some VAs earn $15/hour while others earn $50/hour</li>
+                    <li>How to position yourself as irreplaceable, not replaceable</li>
+                    <li>The exact skills US clients are paying premium for right now</li>
+                    <li>How to become AI-ready before your market becomes saturated</li>
                 </ul>
             </div>
             
-            <a href="#register" class="cta-button">Reserve My Seat (Free)</a>
+            <a href="#register" class="cta-primary">Reserve Your Seat (Free)</a>
             
-            <p class="microcopy">No guaranteed job • Real training • Limited seats<br>[Workshop Date/Time]</p>
+            <div class="urgency-line">
+                <strong>Limited to 500 seats.</strong> No job guaranteed. Real training only. [Workshop Date/Time]
+            </div>
         </div>
     </section>
 
-    <!-- Trust Section -->
-    <section class="trust-section">
+    <!-- Pattern Break -->
+    <div class="pattern-break">
+        "By the time most VAs realize AI isn't optional, the premium positions will already be filled."
+    </div>
+
+    <!-- Reality Section -->
+    <section class="reality-section">
         <div class="container">
-            <h2>Built on Integrity. Not Hype.</h2>
-            <div class="trust-grid">
-                <div class="trust-item">
-                    <h3>🇺🇸 US-Led Standards</h3>
-                    <p>Training based on real American client needs. Filipino support team that understands you.</p>
+            <h2>Let's Talk About What's Actually Happening</h2>
+            <div class="intro">
+                <p>This isn't about hype. This is about what's happening in the market <strong>right now</strong>.</p>
+                <p>American clients are restructuring how they hire. Filipino VAs who understand AI workflows are getting promoted. Those who don't are being quietly phased out.</p>
+            </div>
+            
+            <div class="reality-grid">
+                <div class="reality-card">
+                    <h3>The Old Way Is Dying</h3>
+                    <p>Manual data entry. Copy-paste social media. Basic email management. These tasks are being automated. If that's all you offer, you're competing on price. And you're losing.</p>
                 </div>
-                <div class="trust-item">
-                    <h3>🎯 Transparent Process</h3>
-                    <p>No hidden costs in the workshop. Optional paid course after. You decide what's next.</p>
+                
+                <div class="reality-card">
+                    <h3>The New Standard Is Here</h3>
+                    <p>AI-assisted research. Automated workflows. Smart delegation. Clients want VAs who can do in 2 hours what used to take 8. That's not laziness. That's leverage.</p>
                 </div>
-                <div class="trust-item">
-                    <h3>⚖️ Merit-Based Only</h3>
-                    <p>Not MLM. Not get-rich-quick. Real skills + hard work = real opportunities.</p>
+                
+                <div class="reality-card">
+                    <h3>The Wage Gap Is Real</h3>
+                    <p>Traditional VA: $5-8/hour. AI-ready VA: $15-50/hour. Same hours worked. Different skill level. Different outcome. Different life.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Program Section -->
+    <!-- Inevitability Section -->
+    <section class="inevitability">
+        <div class="container">
+            <h2>The Market Is Splitting Into Two Groups</h2>
+            <p class="intro">And it's happening faster than most people realize.</p>
+            
+            <div class="split-visual">
+                <div class="split-side split-left">
+                    <h3>Group A: Falling Behind</h3>
+                    <ul>
+                        <li>Still doing manual work</li>
+                        <li>Competing on price</li>
+                        <li>Getting replaced by cheaper VAs</li>
+                        <li>Watching rates drop</li>
+                        <li>Feeling anxious about job security</li>
+                        <li>Waiting for "the right time" to learn AI</li>
+                    </ul>
+                </div>
+                
+                <div class="split-side split-right">
+                    <h3>Group B: Moving Forward</h3>
+                    <ul>
+                        <li>Using AI to amplify output</li>
+                        <li>Commanding premium rates</li>
+                        <li>Getting promoted to management roles</li>
+                        <li>Clients calling them "irreplaceable"</li>
+                        <li>Building career security</li>
+                        <li>Already AI-ready while others catch up</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p class="intro" style="margin-top: 60px; font-size: 1.4rem; font-weight: 600;">
+                You don't choose which group to join by deciding.<br>
+                You choose by <strong>acting or not acting</strong>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Identity Transformation -->
+    <section class="identity-section">
+        <div class="container">
+            <h2>This Isn't About Learning AI.<br>It's About Who You Become.</h2>
+            
+            <div class="identity-grid">
+                <div class="identity-card">
+                    <h4>From Task-Doer to Strategic Partner</h4>
+                    <p>Clients stop seeing you as "the person who does tasks" and start seeing you as "the person who solves problems."</p>
+                </div>
+                
+                <div class="identity-card">
+                    <h4>From Replaceable to Irreplaceable</h4>
+                    <p>When you understand AI workflows, you become the VA who trains other VAs. That's job security.</p>
+                </div>
+                
+                <div class="identity-card">
+                    <h4>From Waiting to Leading</h4>
+                    <p>While others are still "thinking about" learning AI, you're already implementing. Early movers win.</p>
+                </div>
+                
+                <div class="identity-card">
+                    <h4>From Fearful to Confident</h4>
+                    <p>AI isn't your competitor. It's your leverage. Once you understand that, everything changes.</p>
+                </div>
+                
+                <div class="identity-card">
+                    <h4>From Cheap Labor to Premium Service</h4>
+                    <p>When you can deliver $500 worth of work in 2 hours, you don't charge $5/hour anymore.</p>
+                </div>
+                
+                <div class="identity-card">
+                    <h4>From Anxiety to Opportunity</h4>
+                    <p>The VAs who panic about AI are the ones who don't understand it. The ones who learn it see nothing but upside.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Breakdown -->
     <section class="program-section">
         <div class="container">
-            <h2>What You'll Learn in 3 Days</h2>
+            <h2>What Happens in 3 Days</h2>
             
             <div class="day-breakdown">
                 <div class="day-card">
-                    <div class="day-number">1</div>
-                    <h3>Reality Check + AI Basics</h3>
+                    <div class="day-header">
+                        <div class="day-number">1</div>
+                        <div>
+                            <h3>Reality + AI Basics</h3>
+                        </div>
+                    </div>
                     <ul>
-                        <li>The truth about remote work in 2024</li>
-                        <li>How AI is changing VA roles</li>
-                        <li>Tools every modern VA must know</li>
-                        <li>Why some VAs earn 3x more than others</li>
-                        <li>What makes you stand out to US clients</li>
+                        <li>The truth about remote work in 2024 (what clients actually want)</li>
+                        <li>How AI is restructuring VA roles (and why that's good news)</li>
+                        <li>The 5 AI tools every modern VA must know (we'll show you)</li>
+                        <li>Why some VAs earn 3x more than others (it's not talent)</li>
+                        <li>What makes you stand out to US clients (hint: it's not experience)</li>
                     </ul>
                 </div>
                 
                 <div class="day-card">
-                    <div class="day-number">2</div>
-                    <h3>Hands-On AI Workflows</h3>
+                    <div class="day-header">
+                        <div class="day-number">2</div>
+                        <div>
+                            <h3>Hands-On AI Workflows</h3>
+                        </div>
+                    </div>
                     <ul>
-                        <li>Live demos of AI tools in action</li>
-                        <li>Email management using AI</li>
-                        <li>Social media automation</li>
-                        <li>Research and reporting shortcuts</li>
-                        <li>How top VAs use ChatGPT correctly</li>
+                        <li>Live demos: watch AI tools solve real VA tasks in real-time</li>
+                        <li>Email management using AI (cut inbox time by 70%)</li>
+                        <li>Social media automation (post like you have a team)</li>
+                        <li>Research and reporting shortcuts (deliver faster without cutting quality)</li>
+                        <li>How top Filipino VAs are using ChatGPT correctly (not like amateurs)</li>
                     </ul>
                 </div>
                 
                 <div class="day-card">
-                    <div class="day-number">3</div>
-                    <h3>Your Pathway Forward</h3>
+                    <div class="day-header">
+                        <div class="day-number">3</div>
+                        <div>
+                            <h3>Your Pathway Forward</h3>
+                        </div>
+                    </div>
                     <ul>
-                        <li>Standards we look for in VAs</li>
-                        <li>How the evaluation process works</li>
-                        <li>Marketplace listing requirements</li>
-                        <li>Optional next-step training</li>
-                        <li>Q&A with working VAs</li>
+                        <li>Standards we look for when hiring AI-ready VAs (so you know the bar)</li>
+                        <li>How the evaluation process works (merit-based, transparent)</li>
+                        <li>Marketplace listing requirements (for those who qualify)</li>
+                        <li>Optional next-step training (for those who want deeper certification)</li>
+                        <li>Live Q&A with working AI-ready VAs (real people, real results)</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Audience Section -->
-    <section class="audience-section">
+    <!-- Objections Section -->
+    <section class="objections-section">
         <div class="container">
-            <h2 style="text-align: center; font-size: 2.5rem; color: #0038A8; margin-bottom: 50px;">Is This Workshop For You?</h2>
+            <h2>Let's Handle Your Objections Right Now</h2>
             
-            <div class="audience-grid">
-                <div class="audience-card for-you">
-                    <h3>✓ This IS For You If:</h3>
-                    <ul>
-                        <li>You're a VA who wants better clients and rates</li>
-                        <li>You're a beginner willing to learn and practice</li>
-                        <li>You're serious about remote work as a career</li>
-                        <li>You want to understand AI tools, not fear them</li>
-                        <li>You're ready to invest time in your skills</li>
-                    </ul>
+            <div class="objection-grid">
+                <div class="objection-item">
+                    <h4>"I don't have time for a 3-day workshop."</h4>
+                    <p>You have time to scroll social media for 3 hours. You have time for this. And if you don't make time now, you'll be forced to make time later when you're scrambling to catch up.</p>
                 </div>
                 
-                <div class="audience-card not-for-you">
-                    <h3>✗ This is NOT For You If:</h3>
-                    <ul>
-                        <li>You want instant money without learning</li>
-                        <li>You expect a guaranteed job from a free workshop</li>
-                        <li>You're not willing to practice new skills</li>
-                        <li>You're looking for shortcuts or "hacks"</li>
-                        <li>You don't have a computer or internet</li>
-                    </ul>
+                <div class="objection-item">
+                    <h4>"I've joined free workshops before. They're just sales pitches."</h4>
+                    <p>Fair. Most are. This one teaches real workflows. Yes, we have an optional paid course after. But the workshop itself? Real training. You'll leave with usable skills whether you buy or not.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"I'm not technical. AI sounds complicated."</h4>
+                    <p>If you can use Facebook, you can use AI tools. We're not teaching you to code. We're teaching you to use tools. Big difference.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"Will I get a job after this workshop?"</h4>
+                    <p>No guarantees. We're not selling false promises. This workshop gives you skills. Getting hired depends on your performance, effort, and client demand. We're upfront about that.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"What if I don't finish? I start things but don't complete them."</h4>
+                    <p>It's 3 days. 2 hours per day. That's 6 hours total. If you can't commit to 6 hours to upgrade your entire career trajectory, the problem isn't the workshop.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"AI will replace VAs anyway. Why bother?"</h4>
+                    <p>AI replaces VAs who don't use AI. It amplifies VAs who do. You're not competing with AI. You're competing with VAs who learned AI before you did.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"I don't have money for courses right now."</h4>
+                    <p>The workshop is FREE. The optional course after is low-cost. And if you're worried about affording a course, you should be even more worried about not having the skills to earn more.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"What if I pick the wrong niche or clients?"</h4>
+                    <p>AI skills are transferable across all niches. Email management, social media, research—it's all the same toolkit. Learn the skills first. Pick the niche later.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"I don't have an audience or network. How will I get clients?"</h4>
+                    <p>Top performers from the optional course get listed on our marketplace. But even if you don't, AI-ready VAs are in demand. You don't need a network. You need skills clients want.</p>
+                </div>
+                
+                <div class="objection-item">
+                    <h4>"I'm not creative or a fast learner."</h4>
+                    <p>AI doesn't require creativity. It requires consistency. You don't have to be a genius. You have to show up and apply what you learn. That's it.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Process Section -->
-    <section class="process-section">
+    <!-- Future Visualization -->
+    <section class="future-section">
         <div class="container">
-            <h2 style="text-align: center; font-size: 2.5rem; color: #0038A8; margin-bottom: 20px;">How It Works</h2>
-            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 50px; color: #666;">Simple. Clear. No surprises.</p>
+            <h2>Picture This</h2>
             
-            <div class="process-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h4>Register Below</h4>
-                    <p>Fill out the form. Takes 2 minutes.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h4>Get Confirmation</h4>
-                    <p>Check your email for [Zoom Link Delivery Method].</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h4>Attend 3 Sessions</h4>
-                    <p>Join live on [Workshop Date/Time].</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <h4>Get Resources</h4>
-                    <p>Downloads, checklists, next steps.</p>
-                </div>
-                
-                <div class="step">
-                    <div class="step-number">5</div>
-                    <h4>Decide Next Step</h4>
-                    <p>Optional paid training or marketplace path.</p>
-                </div>
+            <div class="vision-card">
+                <h3>Scene 1: Six Months From Now</h3>
+                <p>You're finishing a project that used to take you 8 hours. Today it took 2. Your client messages: "How do you always deliver so fast?" You smile. You know something they don't. AI isn't magic. But it feels like it when you know how to use it. Your rate just went from $8/hour to $25/hour. Same hours. Different outcome.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="faq-section">
-        <div class="container">
-            <h2 style="text-align: center; font-size: 2.5rem; color: #0038A8; margin-bottom: 20px;">Questions? We Got You.</h2>
             
-            <div class="faq-container">
-                <div class="faq-item">
-                    <div class="faq-question">Is this workshop really free?</div>
-                    <div class="faq-answer">
-                        Yes, 100% free. No credit card needed. After the workshop, there's an optional low-cost course if you want deeper training. But the workshop itself? Completely free.
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">Will I get a job after this?</div>
-                    <div class="faq-answer">
-                        No guarantees. This workshop teaches you skills. Getting hired depends on your performance, client demand, and how well you apply what you learn. We're transparent about this.
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">Do I need VA experience to join?</div>
-                    <div class="faq-answer">
-                        Nope! We welcome beginners. Fresh grads, career shifters, OFW returnees, stay-at-home parents – all are welcome. We'll teach you from scratch.
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">What do I need to join the workshop?</div>
-                    <div class="faq-answer">
-                        A computer or laptop. Stable internet. A Zoom account (free). A notebook to take notes. And the willingness to learn.
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">Will there be a replay if I miss a session?</div>
-                    <div class="faq-answer">
-                        Replays will be available for registered attendees only. But we highly recommend attending live – you'll get more value from the Q&A and interaction.
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">What if I miss a day?</div>
-                    <div class="faq-answer">
-                        You can watch the replay, but each day builds on the previous one. Try to attend all three days for the full experience.
-                    </div>
-                </div>
-                
-                <div class="faq-item">
-                    <div class="faq-question">How are top performers selected for the marketplace?</div>
-                    <div class="faq-answer">
-                        After the optional paid course, top performers go through skills assessments, interviews, and portfolio reviews. It's merit-based. Those who demonstrate skills, professionalism, and reliability get listed.
-                    </div>
-                </div>
+            <div class="vision-card">
+                <h3>Scene 2: One Year From Now</h3>
+                <p>A friend asks how you're doing. "Good," you say. But you're thinking about the deposit you just made for your family's new house. You're thinking about how your client called you "irreplaceable" last week. You're thinking about how scared you were a year ago when everyone was talking about AI replacing VAs. Now you understand: AI didn't replace you. It made you unstoppable.</p>
+            </div>
+            
+            <div class="vision-card">
+                <h3>Scene 3: Three Years From Now</h3>
+                <p>You're training new VAs. They ask how you became so successful. You tell them the truth: "I saw the market splitting. I chose a side. I didn't wait for permission. I just learned." They nod. But you wonder if they'll actually do it. Most won't. But some will. And those who do? They'll be exactly where you are now.</p>
             </div>
         </div>
     </section>
@@ -736,8 +938,11 @@
     <!-- Registration Form -->
     <section class="registration-section" id="register">
         <div class="container">
-            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 20px;">Reserve Your Free Seat</h2>
-            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 40px;">Limited spots available. Secure yours now.</p>
+            <h2>This Is Where You Decide</h2>
+            <p class="form-intro">
+                The market is splitting. AI-ready VAs on one side. Everyone else on the other.<br>
+                <strong>Which side are you choosing?</strong>
+            </p>
             
             <div class="form-container">
                 <form action="[FORM_ACTION_URL]" method="POST">
@@ -815,7 +1020,11 @@
                         </div>
                     </div>
                     
-                    <button type="submit" class="submit-button">Save My Free Seat →</button>
+                    <button type="submit" class="submit-button">Reserve My Seat Now →</button>
+                    
+                    <div class="urgency-line" style="margin-top: 30px; color: #333; text-align: center;">
+                        <strong>Limited to 500 seats.</strong> First-come, first-served. Workshop starts [Workshop Date/Time].
+                    </div>
                 </form>
             </div>
         </div>
@@ -825,9 +1034,10 @@
     <footer>
         <div class="container">
             <div class="disclaimer">
-                <p><strong>Important Disclaimer:</strong> This workshop provides training and education only. Completion does not guarantee employment, client placement, or income. Hiring is based on merit, skill level, and client demand. Optional paid training is available after the workshop for those who want deeper certification.</p>
-                <p style="margin-top: 20px;"><strong>Data Privacy:</strong> Your information is used solely for workshop communication and will not be sold or shared with third parties. You can unsubscribe at any time.</p>
-                <p style="margin-top: 20px;">© 2026 [Organizer Name]. All rights reserved.</p>
+                <p><strong>Important Disclaimer:</strong> This workshop provides training and education only. Completion does not guarantee employment, client placement, or income. Hiring is based on merit, skill demonstration, and client demand. We are transparent about this because we respect you enough to tell the truth.</p>
+                <p style="margin-top: 25px;"><strong>Data Privacy:</strong> Your information is used solely for workshop communication. We will not sell or share your data with third parties. You can unsubscribe anytime.</p>
+                <p style="margin-top: 25px; font-size: 1.1rem; font-weight: 600;">The market is splitting. You're choosing a side whether you realize it or not.</p>
+                <p style="margin-top: 35px; opacity: 0.6;">© 2026 [Organizer Name]. All rights reserved.</p>
             </div>
         </div>
     </footer>
