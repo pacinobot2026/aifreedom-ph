@@ -1,0 +1,10 @@
+{
+  "name": "aifreedom-ph",
+  "version": "1.0.0",
+  "description": "AI Freedom PH - 3-Day AI VA Workshop Landing Page",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "serve ."
+  }
+}
