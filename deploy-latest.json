@@ -1,0 +1,11 @@
+{
+  "name": "aifreedom-ph",
+  "gitSource": {
+    "type": "github",
+    "repo": "pacinobot2026/aifreedom-ph",
+    "ref": "main",
+    "repoId": 1166127415,
+    "sha": "0ef948333003ff83030022531e7c5236096e5e68"
+  },
+  "target": "production"
+}
